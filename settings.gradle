@@ -1,1 +1,1 @@
-include ':app', ':snowingview'
+include ':app', ':snowingview', ':typer'

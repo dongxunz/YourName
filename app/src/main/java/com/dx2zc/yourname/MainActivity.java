@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
         //开始下雪
         snowingView.startFall();
 
+        //播放音乐
         music = new MediaPlayer();
         music = MediaPlayer.create(this,R.raw.qianqianshishi);
         try {
