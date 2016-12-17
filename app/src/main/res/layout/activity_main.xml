@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/iloveyou"
+    tools:context="com.dx2zc.yourname.MainActivity">
+
+    <info.hellovass.snowingview.widgets.SnowingView
+        android:id="@+id/snowing_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        app:src="@drawable/ic_snowflake" />
+
+    <ImageView
+        android:layout_gravity="left|top"
+        android:src="@drawable/love_fly"
+        android:layout_width="110dp"
+        android:layout_height="40dp" />
+
+    <ImageView
+        android:layout_gravity="center|top"
+        android:src="@drawable/love_fly"
+        android:layout_width="110dp"
+        android:layout_height="40dp" />
+
+    <ImageView
+        android:layout_gravity="right|top"
+        android:src="@drawable/love_fly"
+        android:layout_width="110dp"
+        android:layout_height="40dp" />
+
+    <ImageButton
+        android:layout_marginLeft="80dp"
+        android:background="@drawable/i"
+        android:layout_gravity="bottom|left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageButton
+        android:background="@drawable/love"
+        android:layout_gravity="bottom|center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageButton
+        android:layout_marginRight="80dp"
+        android:background="@drawable/you"
+        android:layout_gravity="bottom|right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</FrameLayout>
